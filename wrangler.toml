@@ -1,0 +1,12 @@
+name = "astro-api"
+compatibility_date = "2025-12-22"
+main = "./src/index.ts"
+
+account_id = "5e565cf9fa55b0eae1f8131903da2ca9"
+
+[observability.logs]
+enabled = true
+
+[[routes]]
+pattern = "astro.bmapi.nl"
+custom_domain = true

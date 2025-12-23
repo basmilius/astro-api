@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "esnext",
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "allowJs": false,
+        "strict": true,
+        "jsx": "preserve",
+        "skipLibCheck": true,
+        "moduleResolution": "bundler",
+        "esModuleInterop": true,
+        "importHelpers": true,
+        "resolveJsonModule": true,
+        "baseUrl": ".",
+        "rootDir": ".",
+        "outDir": "dist",
+        "paths": {
+            "@/*": [
+                "src/*"
+            ],
+            "$flux/*": [
+                "node_modules/@flux-ui/components/src/*"
+            ],
+            "$fluxDashboard/*": [
+                "node_modules/@flux-ui/dashboard/src/*"
+            ]
+        }
+    },
+    "include": [
+        "./src/**/*.ts",
+        "./src/**/*.vue"
+    ],
+    "exclude": [
+        "dist",
+        "node_modules"
+    ]
+}
