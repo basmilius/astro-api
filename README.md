@@ -1,15 +1,7 @@
-# Postcode API
+# Astro API
 
-This API is a simple wrapper around public BAG data from the government of The Netherlands.
+This API provides access to solar and lunar data, including moon phases, sunrise and sunset times, twilight periods, and related astronomical calculations.
 
 ## Requirements
 
-- Bun 1.2.9
-- A database file called `bag.gpkg` from the Dutch Government.
-
-## Build
-
-```shell
-docker build --pull -t ghcr.io/basmilius/postcode-api:latest --platform linux/amd64 .
-docker push ghcr.io/basmilius/postcode-api:latest
-```
+- Bun 1.3.0
